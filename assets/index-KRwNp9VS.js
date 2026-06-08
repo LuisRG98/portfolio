@@ -37,20 +37,25 @@ Error generating stack: `+e.message+`
       items-center\r
       justify-center\r
       overflow-hidden\r
-      `,children:[(0,C.jsx)(`div`,{className:`\r
-        absolute\r
-        inset-0\r
-        bg-gradient-to-br\r
-        from-blue-950\r
-        via-[#050816]\r
-        to-black\r
-        `}),(0,C.jsx)(`div`,{className:`\r
-        absolute\r
-        inset-0\r
-        bg-[radial-gradient(circle_at_center,rgba(59,130,246,0.15),transparent_60%)]\r
-        `}),(0,C.jsxs)(lu.div,{initial:{opacity:0},animate:{opacity:1},transition:{duration:1},className:`\r
+      `,children:[(0,C.jsx)(`div`,{className:`hero-background`}),(0,C.jsx)(`div`,{className:`wave-layer wave-1`,children:(0,C.jsx)(`svg`,{viewBox:`0 0 1440 320`,preserveAspectRatio:`none`,children:(0,C.jsx)(`path`,{fill:`rgba(0,90,255,0.12)`,d:`\r
+            M0,224\r
+            C180,160,360,160,540,224\r
+            C720,288,900,288,1080,224\r
+            C1260,160,1350,160,1440,224\r
+            L1440,320\r
+            L0,320\r
+            Z\r
+            `})})}),(0,C.jsx)(`div`,{className:`wave-layer wave-2`,children:(0,C.jsx)(`svg`,{viewBox:`0 0 1440 320`,preserveAspectRatio:`none`,children:(0,C.jsx)(`path`,{fill:`rgba(0,183,255,0.08)`,d:`\r
+            M0,160\r
+            C200,220,400,220,600,160\r
+            C800,100,1000,100,1200,160\r
+            C1320,190,1400,200,1440,180\r
+            L1440,320\r
+            L0,320\r
+            Z\r
+            `})})}),(0,C.jsxs)(lu.div,{initial:{opacity:0},animate:{opacity:1},transition:{duration:1},className:`\r
         relative\r
-        z-10\r
+        z-20\r
         text-center\r
         backdrop-blur-xl\r
         bg-white/5\r
@@ -73,39 +78,37 @@ Error generating stack: `+e.message+`
               bg-gradient-to-r\r
               from-blue-400\r
               to-cyan-400\r
-              `,style:{width:`85%`}})}),(0,C.jsx)(`p`,{className:`mt-2 text-zinc-400`,children:`Experience 85%`})]}),(0,C.jsx)(`button`,{className:`\r
-          mt-8\r
-          px-8\r
-          py-3\r
-          rounded-xl\r
-          bg-blue-600\r
-          hover:bg-blue-500\r
-          transition\r
-          `,children:`Start Journey`})]}),(0,C.jsx)(`div`,{className:`\r
-        absolute\r
-        bottom-0\r
-        left-0\r
-        w-full\r
-        h-[180px]\r
-        z-10\r
-        `,children:(0,C.jsx)(`svg`,{viewBox:`0 0 1440 320`,preserveAspectRatio:`none`,className:`w-full h-full`,children:(0,C.jsx)(`path`,{fill:`rgba(0,90,255,0.18)`,d:`\r
-            M0,224\r
-            C180,160,\r
-            360,160,\r
-            540,224\r
+              `,style:{width:`85%`}})}),(0,C.jsx)(`p`,{className:`mt-2 text-zinc-400`,children:`Experience 85%`})]}),(0,C.jsxs)(`div`,{className:`flex justify-center gap-4 mt-8`,children:[(0,C.jsx)(`a`,{href:`#projects`,className:`\r
+            px-8\r
+            py-4\r
+            rounded-2xl\r
 \r
-            C720,288,\r
-            900,288,\r
-            1080,224\r
+            bg-gradient-to-r\r
+            from-blue-600\r
+            to-cyan-500\r
 \r
-            C1260,160,\r
-            1350,160,\r
-            1440,224\r
+            hover:scale-105\r
+            hover:shadow-[0_0_25px_rgba(59,130,246,0.8)]\r
 \r
-            L1440,320\r
-            L0,320\r
-            Z\r
-            `})})})]})}function du({title:e,image:t,link:n}){return(0,C.jsxs)(lu.div,{whileHover:{scale:1.08,y:-15,rotateX:5},className:`\r
+            transition-all\r
+            duration-300\r
+            `,children:`View Projects`}),(0,C.jsx)(`a`,{href:`/portfolio/Luis-Rivas-CV.pdf`,download:!0,className:`\r
+            px-8\r
+            py-4\r
+            rounded-2xl\r
+\r
+            border\r
+            border-white/20\r
+\r
+            bg-white/5\r
+            backdrop-blur-md\r
+\r
+            hover:bg-white/10\r
+            hover:scale-105\r
+\r
+            transition-all\r
+            duration-300\r
+            `,children:`Download CV`})]})]})]})}function du({title:e,image:t,link:n}){return(0,C.jsxs)(lu.div,{whileHover:{scale:1.08,y:-15,rotateX:5},className:`\r
       w-72\r
       rounded-2xl\r
       overflow-hidden\r
