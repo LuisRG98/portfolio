@@ -29,7 +29,7 @@ Error generating stack: `+e.message+`
         border-white/10\r
         rounded-3xl\r
         p-10\r
-        `,children:[(0,C.jsx)(lu.img,{src:`/profile.png`,alt:`Luis Rivas`,className:`\r
+        `,children:[(0,C.jsx)(lu.img,{src:`/portfolio/profile.png`,alt:`Luis Rivas`,className:`\r
           w-44\r
           h-44\r
           rounded-full\r
