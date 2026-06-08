@@ -12,6 +12,7 @@ export default function Navbar() {
           <a href="#skills">Skills</a>
           <a href="#journey">Journey</a>
           <a href="#contact">Contact</a>
+          <a href="#certifications">Certifications</a>
         </div>
 
       </div>
