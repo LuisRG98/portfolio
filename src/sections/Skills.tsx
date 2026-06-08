@@ -7,7 +7,7 @@ export default function Skills() {
       className="py-24 px-8"
     >
       <h2 className="text-5xl font-bold mb-10">
-        Trophies
+        Skills
       </h2>
 
       <div
@@ -18,33 +18,33 @@ export default function Skills() {
         "
       >
         <TrophyCard
-          title="Python Expert"
-          description="FastAPI, Django, AI"
+          title="Programming Languages"
+          description="Python, JavaScript, C#, Dart, PHP, HTML, CSS  "
         />
 
         <TrophyCard
-          title="Cloud Explorer"
-          description="AWS Services"
+          title="Frameworks & Technologies"
+          description="FastAPI, Django, Flutter, Laravel"
         />
 
         <TrophyCard
-          title="Backend Master"
-          description="NestJS & APIs"
+          title="Backend & APIs"
+          description="REST APIs, Firebase, Backend Integrations"
         />
 
         <TrophyCard
-          title="MongoDB Specialist"
-          description="NoSQL Databases"
+          title="Databases"
+          description="SQL, MongoDB, NoSQL"
         />
 
         <TrophyCard
-          title="AI Builder"
-          description="Gemini & LLMs"
+          title="Tools & Platforms"
+          description="Git, GitHub, Bitbucket, Visual Studio Code, Android Studio, Xcode, Cloud / Infrastructure AWS, Kubernetes"
         />
 
         <TrophyCard
-          title="Full Stack"
-          description="React & Next.js"
+          title="Testing & Methodologies"
+          description="Software Debugging, API Testing, Agile, Scrum, Kanban"
         />
       </div>
     </section>

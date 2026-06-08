@@ -13,28 +13,28 @@ export default function Journey() {
       <div className="space-y-8">
 
         <TimelineItem
-          year="2021"
-          title="Started Programming"
+          year="2020-Present"
+          title="Code Road Service Support Engineer / Support Analyst"
+          description="
+          Developed and maintained internal business applications, resolved technical issues, implemented system enhancements, and collaborated with teams to improve performance, reliability, and operational efficiency."
         />
 
         <TimelineItem
-          year="2022"
-          title="Backend Development"
+          year="2024 – 2026"
+          title="Jalasoft Software Developer"
+          description="Developed and enhanced enterprise software solutions, implementing new features, troubleshooting production issues, and optimizing application performance. Partnered with cross-functional teams to deliver scalable, reliable, and maintainable solutions aligned with business and client needs."
         />
 
         <TimelineItem
-          year="2024"
-          title="Cloud Computing"
+          year="2020"
+          title="Qualitas Test Team Junior QA Analyst"
+          description="Assisted in software testing and quality assurance by executing test cases, tracking defects, validating functionality, and supporting release readiness to ensure reliable software delivery."
         />
 
         <TimelineItem
-          year="2025"
-          title="Artificial Intelligence"
-        />
-
-        <TimelineItem
-          year="2026"
-          title="Software Architecture"
+          year="2019"
+          title="Freelance Backend Developer"
+          description="Developed REST APIs using FastAPI, implementing backend logic, data handling, and scalable integrations to support application functionality and system interoperability."
         />
 
       </div>
