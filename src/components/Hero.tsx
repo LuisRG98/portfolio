@@ -81,7 +81,7 @@ export default function Hero() {
         </p>
 
         <p className="text-zinc-400 mt-3">
-          Lv. 26 Full Stack Developer
+          Lv. 28 Backend Developer
         </p>
 
         <div className="mt-8">
