@@ -12,35 +12,51 @@ export default function Hero() {
       overflow-hidden
       "
     >
-      {/* Fondo Hero */}
-      <div
-        className="
-        absolute
-        inset-0
-        bg-gradient-to-br
-        from-blue-950
-        via-[#050816]
-        to-black
-        "
-      />
+      {/* Fondo principal */}
+      <div className="hero-background" />
 
-      {/* Glow adicional */}
-      <div
-        className="
-        absolute
-        inset-0
-        bg-[radial-gradient(circle_at_center,rgba(59,130,246,0.15),transparent_60%)]
-        "
-      />
+      {/* Olas decorativas */}
+      <div className="wave-layer wave-1">
+        <svg viewBox="0 0 1440 320" preserveAspectRatio="none">
+          <path
+            fill="rgba(0,90,255,0.12)"
+            d="
+            M0,224
+            C180,160,360,160,540,224
+            C720,288,900,288,1080,224
+            C1260,160,1350,160,1440,224
+            L1440,320
+            L0,320
+            Z
+            "
+          />
+        </svg>
+      </div>
 
-      {/* Contenido */}
+      <div className="wave-layer wave-2">
+        <svg viewBox="0 0 1440 320" preserveAspectRatio="none">
+          <path
+            fill="rgba(0,183,255,0.08)"
+            d="
+            M0,160
+            C200,220,400,220,600,160
+            C800,100,1000,100,1200,160
+            C1320,190,1400,200,1440,180
+            L1440,320
+            L0,320
+            Z
+            "
+          />
+        </svg>
+      </div>
+
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1 }}
         className="
         relative
-        z-10
+        z-20
         text-center
         backdrop-blur-xl
         bg-white/5
@@ -103,60 +119,53 @@ export default function Hero() {
           </p>
         </div>
 
-        <button
-          className="
-          mt-8
-          px-8
-          py-3
-          rounded-xl
-          bg-blue-600
-          hover:bg-blue-500
-          transition
-          "
-        >
-          Start Journey
-        </button>
-      </motion.div>
+        <div className="flex justify-center gap-4 mt-8">
+          <a
+            href="#projects"
+            className="
+            px-8
+            py-4
+            rounded-2xl
 
-      {/* OLA DE TRANSICIÓN */}
-      <div
-        className="
-        absolute
-        bottom-0
-        left-0
-        w-full
-        h-[180px]
-        z-10
-        "
-      >
-        <svg
-          viewBox="0 0 1440 320"
-          preserveAspectRatio="none"
-          className="w-full h-full"
-        >
-          <path
-            fill="rgba(0,90,255,0.18)"
-            d="
-            M0,224
-            C180,160,
-            360,160,
-            540,224
+            bg-gradient-to-r
+            from-blue-600
+            to-cyan-500
 
-            C720,288,
-            900,288,
-            1080,224
+            hover:scale-105
+            hover:shadow-[0_0_25px_rgba(59,130,246,0.8)]
 
-            C1260,160,
-            1350,160,
-            1440,224
-
-            L1440,320
-            L0,320
-            Z
+            transition-all
+            duration-300
             "
-          />
-        </svg>
-      </div>
+          >
+            View Projects
+          </a>
+
+          <a
+            href={`${import.meta.env.BASE_URL}Luis-Rivas-CV.pdf`}
+            download
+            className="
+            px-8
+            py-4
+            rounded-2xl
+
+            border
+            border-white/20
+
+            bg-white/5
+            backdrop-blur-md
+
+            hover:bg-white/10
+            hover:scale-105
+
+            transition-all
+            duration-300
+            "
+          >
+            Download CV
+          </a>
+        </div>
+      </motion.div>
     </section>
   );
 }
