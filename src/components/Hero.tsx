@@ -41,7 +41,7 @@ export default function Hero() {
       >
         {/* FOTO */}
         <motion.img
-          src="/profile.png"
+          src={`${import.meta.env.BASE_URL}profile.png`}
           alt="Luis Rivas"
           className="
           w-44
