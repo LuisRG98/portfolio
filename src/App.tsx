@@ -8,24 +8,20 @@ import Contact from "./sections/Contact";
 
 function App() {
   return (
-    <main className="bg-[#0b0d12] text-white">
+    <>
+      <div className="wave-bg" />
+      <div className="floating-lines" />
 
-      <Navbar />
-
-      <Hero />
-
-      <Projects />
-
-      <Skills />
-
-      <Journey />
-
-      <Certifications />
-
-      <Contact />
-
-    </main>
+      <main className="text-white relative z-10">
+        <Navbar />
+        <Hero />
+        <Projects />
+        <Skills />
+        <Journey />
+        <Certifications />
+        <Contact />
+      </main>
+    </>
   );
 }
-
 export default App;
